@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-top: 0%;
+    margin-top: 0;
 }
 .box{
     border-left: 3px solid;
@@ -35,34 +35,41 @@ body{
 #clr{
     color: orange;
 }
+.line{
+    display: flex;
+}
 
 .part{
-    
-    width: 33%;
-    margin-left: 5%;
-    margin-right: 5%;
+    height: 350px;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     padding-left: 15px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px darkturquoise;
 }
+.part img{
+width: 170px;
+padding:8px 20px;
+}
 .flexable{
     display: flex;
-    background-image: url(shape-1.png);
+    background-image: url(rrrrr.png);
    background-repeat: no-repeat;
-    border-width: 0%;
+    background-position: left;
 
 }
 .swr{
+    margin-top: 10%;
     width: 30%;
     padding-left: 15%;
 }
 .swr img{
+    margin-top: 10%;
     width: 75%;
     
 }
-.line{
-    width: 30%;
-}
+
 .emd{
     width: 50%;
     margin-top: 10%;
@@ -77,4 +84,35 @@ body{
 }
 .flexable-b{
     display: flex;
+    background-image: url(shape-9.png);
+    background-repeat: no-repeat;
+}
+#sp{
+    color: cyan;
+}
+.fot{
+    text-align: center;
+}
+.foot{
+    back
+}
+.dd{
+    background-color: black;
+    height: 300px;
+
+}
+.dd h1{
+    color: white;
+}
+.dd h5{
+    color: rgb(128, 128, 128);
+}
+.part2{
+    background-color: gray;
+}
+.part3{
+    background-color: indigo;
+}
+.part4{
+    background-color: lightseagreen;
 }
