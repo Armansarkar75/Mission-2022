@@ -42,3 +42,15 @@ body{
     border-radius: 15px;
     box-shadow: 10px 10px 10px darkturquoise;
 }
+.flexable{
+    display: flex;
+    margin-bottom: 10px;
+}
+.sw{
+    width: 50%;
+    padding-left: 15%;
+}
+.sw img{
+    width: 50%;
+    
+}
