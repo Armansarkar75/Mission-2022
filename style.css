@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin-top: 0%;
 }
 .box{
     border-left: 3px solid;
@@ -34,8 +35,10 @@ body{
 #clr{
     color: orange;
 }
+
 .part{
-    width: 30%;
+    
+    width: 33%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 15px;
@@ -44,13 +47,34 @@ body{
 }
 .flexable{
     display: flex;
-    margin-bottom: 10px;
+    background-image: url(shape-1.png);
+   background-repeat: no-repeat;
+    border-width: 0%;
+
 }
-.sw{
-    width: 50%;
+.swr{
+    width: 30%;
     padding-left: 15%;
 }
-.sw img{
-    width: 50%;
+.swr img{
+    width: 75%;
     
+}
+.line{
+    width: 30%;
+}
+.emd{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.emd img{
+    width: 60%;
+    margin-top: 10%;
+}
+.flexable-a{
+    display: flex;
+}
+.flexable-b{
+    display: flex;
 }
